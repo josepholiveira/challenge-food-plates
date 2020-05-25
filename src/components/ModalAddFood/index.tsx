@@ -52,9 +52,11 @@ const ModalAddFood: React.FC<IModalProps> = ({
         <Input name="name" placeholder="Ex: Moda Italiana" />
         <Input name="price" placeholder="Ex: 19.90" />
 
-        <Input name="description" />
+        <Input name="description" placeholder="Descrição" />
         <button type="submit">
-          <div className="text">Adicionar Prato</div>
+          <p className="text" data-testid="add-food-button">
+            Adicionar Prato
+          </p>
           <div className="icon">
             <FiCheckSquare size={24} />
           </div>

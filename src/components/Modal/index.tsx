@@ -29,6 +29,7 @@ const Modal: React.FC<IModalProps> = ({ children, isOpen, setIsOpen }) => {
       shouldCloseOnOverlayClick={!false}
       onRequestClose={setIsOpen}
       isOpen={modalStatus}
+      ariaHideApp={false}
       style={{
         content: {
           top: '50%',

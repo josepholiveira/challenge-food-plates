@@ -61,6 +61,7 @@ const Food: React.FC<IProps> = ({
             type="button"
             className="icon"
             onClick={() => setEditingFood()}
+            data-testid={`edit-food-${food.id}`}
           >
             <FiEdit3 size={20} />
           </button>
@@ -69,6 +70,7 @@ const Food: React.FC<IProps> = ({
             type="button"
             className="icon"
             onClick={() => handleDelete(food.id)}
+            data-testid={`remove-food-${food.id}`}
           >
             <FiTrash size={20} />
           </button>
@@ -83,6 +85,7 @@ const Food: React.FC<IProps> = ({
               type="checkbox"
               checked={isAvailable}
               onChange={toggleAvailable}
+              data-testid={`change-status-food-${food.id}`}
             />
             <span className="slider" />
           </label>

@@ -19,13 +19,6 @@ interface IFoodPlate {
   available: boolean;
 }
 
-interface IFoodPlateDTO {
-  name: string;
-  image: string;
-  price: string;
-  description: string;
-}
-
 const Dashboard: React.FC = () => {
   const [foods, setFoods] = useState<IFoodPlate[]>([]);
   const [editingFood, setEditingFood] = useState<IFoodPlate>({} as IFoodPlate);
@@ -111,10 +104,11 @@ const Dashboard: React.FC = () => {
         handleUpdateFood={handleUpdateFood}
       />
 
-      <FoodsContainer>
+      <FoodsContainer data-testid="foods-list">
         {foods &&
           foods.map(food => (
             <Food
+              key={food.id}
               food={food}
               toggleModal={toggleEditModal}
               handleDelete={handleDeleteFood}

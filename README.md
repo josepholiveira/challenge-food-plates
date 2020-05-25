@@ -4,7 +4,7 @@
   Desafio 10: GoRestaurant Web
 </h3>
 
-<p align="center">“O tempo que leva para realizar seus sonhos vai passar de qualquer forma”!</blockquote>
+<blockquote align="center">“O tempo que leva para realizar seus sonhos vai passar de qualquer forma”!</blockquote>
 
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rocketseat/bootcamp-gostack-desafios?color=%2304D361">
