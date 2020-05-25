@@ -25,28 +25,20 @@
       "image": "https://www.pizzaexpress.com.my/wp-content/uploads/2017/06/bolognese.png"
     },
     {
-      "id": 4,
-      "name": "Ao molho",
-      "description": "Macarrão ao molho branco, fughi e cheiro verde das montanhas.",
+      "image": "Teste",
+      "name": "Teste",
       "price": "19.90",
-      "available": false,
-      "image": "https://www.pizzaexpress.com.my/wp-content/uploads/2017/06/bolognese.png"
+      "description": "Testando",
+      "available": true,
+      "id": 4
     },
     {
-      "id": 5,
-      "name": "Veggie",
-      "description": "Macarrão com pimentão, ervilha e ervas finas colhidas no himalaia.",
-      "price": "19.90",
-      "available": false,
-      "image": "https://www.pizzaexpress.com.my/wp-content/uploads/2017/06/bolognese.png"
-    },
-    {
-      "id": 6,
-      "name": "A la Camarón",
-      "description": "Macarrão com vegetais de primeira linha e camarão dos 7 mares.",
-      "price": "19.90",
-      "available": false,
-      "image": "https://www.pizzaexpress.com.my/wp-content/uploads/2017/06/bolognese.png"
+      "image": "fdsdf",
+      "name": "sdfsd",
+      "price": "fsdfsd",
+      "description": "sdfs",
+      "available": true,
+      "id": 5
     }
   ]
 }
